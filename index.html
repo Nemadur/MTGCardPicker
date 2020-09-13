@@ -1,0 +1,26 @@
+<head>
+    <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/fomantic-ui@2.8.6/dist/semantic.min.css">
+    <script src="https://unpkg.com/fomantic-ui@2.8.6/dist/semantic.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link href="style/style.css" media="screen" rel="stylesheet" type="text/css">
+</head>
+
+
+
+<h1>hello world</h1>
+<div class="ui segment">
+    <div class="ui segment" id='mainview'></div>
+    <div class="ui segment" id='mainview'></div>
+    <div class="ui segment" id='mainview'></div>
+</div>
+
+<div id="draggable" class="ui-widget-content">
+    <p>Drag me around</p>
+  </div>
+
+<script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
+</script>
